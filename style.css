@@ -1,0 +1,293 @@
+body{
+    
+}
+input[type="text"]:focus,input[type="email"]:focus,input[type="tel"]:focus
+ {   
+  border-color: #F2D349;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #F2D349;
+  outline: 0 none;
+}
+
+* {
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Bree Serif', serif;
+}
+
+/* logo */
+.logo{
+    position: relative;
+}
+/* header */
+
+.dcolor{
+    color: #F2D349;
+}
+.dbg{
+    background-color: #F2D349;
+}
+.dbgo{
+    background-color:#143f5e;
+}
+header p,a,i{
+    color: #F2D349;
+}
+/* h1,.sp_title {
+    
+    display:inline-block;
+    position:relative;
+    
+  }
+h1::after{
+    content:'';
+    height:2px;
+    width:20%;
+    background:#F2D349;
+    position:absolute;
+    left:calc(50% - 10%);
+    bottom:-5px;
+  } */
+
+header{
+    /* background-color: #0a2254; */
+    height: 100px;
+}
+.btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+
+.dropdown-menu {
+    width: 300px !important;
+    /* height: 400px !important; */
+}
+/* slide */
+.slide_img .icon_bg{
+    /* background-color: #0a2254; */
+    height: 70px;
+    
+}
+.slide_img h5,p{
+    color: white;
+}
+.overlay{
+    background-image: url('./132-Khel-Now-14-copy.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    /* background-attachment: fixed; */
+    
+    height: 340px;
+    width: 100%;
+}
+.overlay h5{
+    font-size: 36px;
+    color: #f2d34986;
+}
+.overlay1{
+    background-color: #0000008f;
+    height: 340px;
+    width: 100%;
+}
+@media (max-width: 768px) { 
+    .overlay{
+        background-repeat:no-repeat;
+        background-size:cover;
+        
+        height: 140px;
+        width: 100%;
+    }
+    .overlay1 h5,p{
+        font-size: 13px;
+        text-align: justify;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+}
+/* offer_banner */
+.offer_banner{
+    /* background-color: #0a2254; */
+   
+   
+}
+.overlay2{
+    background-color: #000000bd;
+    height: auto;
+    width: 100%;
+}
+.offer_banner p{
+    line-height: 32px;
+}
+.offer_banner p,h1{
+    color: #fff !important;
+}
+.our_aim{
+    background-image: url('./WC_Squads_Argentina.jpg');
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: auto;
+}
+/* events */
+.shadow_effect{
+    
+    /* box-shadow: 0px 0px 10px #f6a01763; */
+    box-shadow: #0a215423 0px 3px 6px, rgba(0, 0, 0, 0.021) 0px 3px 6px;
+}
+.events h5{
+    color: #143f5e  ;
+}
+.events h5,h1,.sp_title  {
+    
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+  }
+    .events h5:before,h1:before{
+        content: "";
+        position: absolute;
+        width: 50%;
+        height: 1px;
+        bottom: 0;
+        left: 25%;
+        border-bottom: 2px solid #F2D349;
+    }
+
+.sp_title:before , .ofhead:before{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 0;
+    left: 25%;
+    border-bottom: 2px solid #143f5eb7;
+}
+/* footer */
+footer{
+    /* background-color: #0a2254; */
+    width: 100%;
+    color: white;
+    border-top: 1px solid white;
+
+}
+footer li{
+    list-style: none;
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #f6a11728;
+    border-radius: 50%;
+    /* margin-left: 22px; */
+}
+footer li:hover{
+    background-color: #f6a017;
+}
+
+/* icon */
+
+.whats-app {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 40px;
+    /* background-color: #25d366; */
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    /* box-shadow: 3px 4px 3px #999; */
+    /* left: 15px; */
+    right: 27px;
+    z-index: 100;
+}
+
+.my-float {
+    margin-top: 10px;
+}
+
+/* modal form */
+.modal-footer button{
+    background-color: #143f5e;
+    color: #F2D349;
+}
+.modal-footer button:hover{
+    background-color: white;
+    border: 1px solid #F2D349;
+}
+/* back to top */
+
+#backtop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 10px;
+    z-index: 99;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background-color: #143f5e;
+    color: white;
+    cursor: pointer;
+    /* padding: 15px; */
+    border-radius: 4px;
+    color: #ffff;
+    /* border: 1px solid #F2D349; */
+  }
+  .bell:hover {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    perspective: 1000px;
+  }
+  
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+    
+    30%, 50%, 70% {
+      transform: translate3d(-2px, 0, 0);
+    }
+    40%, 60% {
+      transform: translate3d(2px, 0, 0);
+  }}
+
+  /* offer tag */
+  .vc {
+    background: #143f5e;
+    color: #F2D349;
+    width: 153px;
+    text-align: center;
+    padding: 6.5px 18px;
+    position: relative;
+    animation: blinker 1.5s linear infinite;
+    
+  }
+  .vc:after {
+    width: 0;
+    height: 0;
+    border: 12.5px solid transparent;
+    position: absolute;
+    content: "";
+    border-top-color: #143f5e;
+    right: -23px;
+    top: 0px;
+    border-left-color: #143f5e;
+  }
+  .vc:before {
+      width: 0;
+      height: 0;
+      border: 13px solid transparent;
+      position: absolute;
+      content: "";
+      border-bottom-color: #143f5e;
+      right: -23px;
+      top: -1px;
+  }
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
