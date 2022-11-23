@@ -26,7 +26,8 @@ input[type="text"]:focus,input[type="email"]:focus,input[type="tel"]:focus
     background-color: #F2D349;
 }
 .dbgo{
-    background-color:#143f5e;
+    /* background-color:#143f5e; */
+    background-color: #3B32AA;
 }
 header p,a,i{
     color: #F2D349;
@@ -70,7 +71,7 @@ header{
     color: white;
 }
 .overlay{
-    background-image: url('./132-Khel-Now-14-copy.jpg');
+    /* background-image: url('./132-Khel-Now-14-copy.jpg'); */
     background-repeat:no-repeat;
     background-size:cover;
     /* background-attachment: fixed; */
@@ -80,10 +81,10 @@ header{
 }
 .overlay h5{
     font-size: 36px;
-    color: #f2d34986;
+    color: #fff;
 }
 .overlay1{
-    background-color: #0000008f;
+    /* background-color: #0000008f; */
     height: 340px;
     width: 100%;
 }
@@ -109,7 +110,7 @@ header{
    
 }
 .overlay2{
-    background-color: #000000bd;
+    background-color: #F2D349;
     height: auto;
     width: 100%;
 }
@@ -117,15 +118,18 @@ header{
     line-height: 32px;
 }
 .offer_banner p,h1{
-    color: #fff !important;
+    color: rgba(0, 0, 0, 0.87);
 }
 .our_aim{
-    background-image: url('./WC_Squads_Argentina.jpg');
-    background-attachment: fixed;
+    /* background-image: url('./WC_Squads_Argentina.jpg'); */
+    /* background-attachment: fixed;
     background-repeat:no-repeat;
     background-position: center;
-    background-size:cover;
+    /* background-size:cover; */
     height: auto;
+    width: 100%; 
+    background-color: #F2D349;
+    
 }
 /* events */
 .shadow_effect{
@@ -134,7 +138,7 @@ header{
     box-shadow: #0a215423 0px 3px 6px, rgba(0, 0, 0, 0.021) 0px 3px 6px;
 }
 .events h5{
-    color: #143f5e  ;
+    color: #3B32AA  ;
 }
 .events h5,h1,.sp_title  {
     
@@ -152,7 +156,7 @@ header{
         border-bottom: 2px solid #F2D349;
     }
 
-.sp_title:before , .ofhead:before{
+/* .sp_title:before , .ofhead:before{
     content: "";
     position: absolute;
     width: 50%;
@@ -160,7 +164,7 @@ header{
     bottom: 0;
     left: 25%;
     border-bottom: 2px solid #143f5eb7;
-}
+} */
 /* footer */
 footer{
     /* background-color: #0a2254; */
@@ -255,7 +259,7 @@ footer li:hover{
 
   /* offer tag */
   .vc {
-    background: #143f5e;
+    background: #3B32AA;
     color: #F2D349;
     width: 153px;
     text-align: center;
@@ -270,10 +274,10 @@ footer li:hover{
     border: 12.5px solid transparent;
     position: absolute;
     content: "";
-    border-top-color: #143f5e;
+    border-top-color: #3B32AA;
     right: -23px;
     top: 0px;
-    border-left-color: #143f5e;
+    border-left-color: #3B32AA;
   }
   .vc:before {
       width: 0;
@@ -281,7 +285,7 @@ footer li:hover{
       border: 13px solid transparent;
       position: absolute;
       content: "";
-      border-bottom-color: #143f5e;
+      border-bottom-color: #3B32AA;
       right: -23px;
       top: -1px;
   }
